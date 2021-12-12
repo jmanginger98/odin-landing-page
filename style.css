@@ -1,0 +1,57 @@
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+h5 {
+    
+}
+
+li, .secondary-text, .footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button, .section-04 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.section-01 {
+    background-color: #1F2937;
+}
+
+.section-02 {
+    
+}
+
+.section-03 {
+    background-color: #E5E7EB;
+}
+
+.section-04 {
+    
+}
+
+.footer {
+    background-color: #1F2937;
+}
