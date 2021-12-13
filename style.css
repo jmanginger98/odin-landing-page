@@ -28,6 +28,11 @@ h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 24px;
 }
 
 h3 {
@@ -40,10 +45,8 @@ h4 {
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
-}
-
-h5 {
-    
+    justify-content: center;
+    align-items: center;
 }
 
 li, .secondary-text, .footer {
@@ -51,7 +54,7 @@ li, .secondary-text, .footer {
     color: #E5E7EB;
 }
 
-button, .section-04 {
+button{
     background-color: #3882F6;
     color: #F9FAF8;
 
@@ -72,19 +75,33 @@ button {
 }
 
 .section-02 {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 .section-03 {
     background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 .section-04 {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 .footer {
     background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
@@ -96,8 +113,10 @@ button {
 
 .hero-section {
     display: flex;
+    justify-content: center;
     gap: 32px;
     padding: 24px;
+    flex: 1;
 }
 
 .hero-text, .secondary-text {
@@ -115,4 +134,90 @@ button {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    height: 200px;
+    width: 800px;
+    flex: 0;
+}
+
+.image-line {
+    display: flex;
+    padding: 24px;
+    gap: 12px;
+}
+
+.image-combo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.image-text, .image-square {
+    display: flex;
+}
+
+.image-square {
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+.image-text {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 12px;
+
+}
+
+h4, .signature {
+    display: flex;
+    margin: 0px;
+}
+
+.signature {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    gap: 32px;
+    padding: 36px 48px;
+    margin: 24px;
+    border-radius: 12px;
+    flex: 1;
+}
+
+.call-text{
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.call-main-text, .call-sub-text {
+    display: flex;
+    margin: 0px;
+}
+
+.call-main-text {
+    font-size: 18px;
+}
+
+.call-button {
+    display: flex;
+    border-style: solid;
+    border-color: #F9FAF8;
 }
