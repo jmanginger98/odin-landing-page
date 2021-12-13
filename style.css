@@ -7,6 +7,11 @@ body {
 }
 a {
     text-decoration: none;
+    color: #F9FAF8;
+}
+
+a:hover {
+    color: lightgray;
 }
 
 ul {
@@ -142,15 +147,16 @@ button {
 .image-line {
     display: flex;
     padding: 24px;
-    gap: 12px;
+    gap: 64px;
 }
 
 .image-combo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex;
     align-items: center;
     gap: 12px;
+    max-width: 150px;
 }
 
 .image-text, .image-square {
